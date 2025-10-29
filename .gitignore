@@ -1,0 +1,76 @@
+# =========================
+# MPLAB X Project GitIgnore
+# =========================
+
+# Build output directories
+**/build/
+**/dist/
+**/debug/
+**/output/
+**/key/
+
+# Compiler-generated files
+*.elf
+*.hex
+*.cof
+*.map
+*.o
+*.d
+*.p1
+*.pre
+*.lst
+*.sdb
+*.sym
+*.obj
+*.as
+*.bin
+*.srec
+
+# MPLAB cache and temp files
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+nbproject/Package-*.bat
+nbproject/configurations.xml
+nbproject/private/private.properties
+nbproject/private/configurations.xml
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE temp files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Simulation or debug dumps
+*.mdb
+*.stc
+*.dmp
+
+# MPLAB X user-specific settings
+*.X.user
+*.X.resources
+
+# Optional: Ignore hex backup or export folders if any
+/export/
+/backups/
+
+# If you use Proteus or simulation files (optional)
+*.pdsbak
+*.pdsprj~
+*.pdsbak~
+*.tmp
+
+# Ignore build notes or compiler reports
+*.err
+*.msg
+*.log
+
+# =========================
+# End of .gitignore
+# =========================
