@@ -75,6 +75,7 @@ void main(void) {
             cmd(0x01);             // Clear LCD
             cmd(0x83);             // Position cursor at line 1, column 3
             print("Done..!");      // Display "Done..!"
+            __delay_ms(500);
             cmd(0x01);             // Clear LCD
             cmd(0x80);             // Move cursor to first line, first position
             print("System Ready"); // Display "System Ready"
@@ -91,6 +92,7 @@ void main(void) {
             cmd(0x01);             // Clear LCD
             cmd(0x83);             // Position cursor at line 1, column 3
             print("Done..!");      // Display "Done..!"
+            __delay_ms(500);       // Delay for next massage
             cmd(0x01);             // Clear LCD
             cmd(0x80);             // Move cursor to first line, first position
             print("System Ready"); // Display "System Ready"
